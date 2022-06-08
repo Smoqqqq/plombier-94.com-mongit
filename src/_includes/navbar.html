@@ -1,0 +1,43 @@
+<section class="Navbar fixedNav">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light align-items-center">
+            <div class="container">
+                <a class="navbar-brand navbar_image" href="{% link accueil.html %}">
+                    <img src="./assets/img/logo.png" alt="Logo" class="navbar_image-img">
+                </a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar"
+                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar_nav" id="navbar">
+                    <ul class="navbar-nav navbar_nav-ul ml-auto">
+                        <li class="nav-item navbar_nav-li">
+                            <a class="nav-link navbar_nav-li--link d-flex align-items-center" href="{% link accueil.html %}">ACCUEIL</a>
+                        </li>
+                        <li class="nav-item navbar_nav-li">
+                            <a class="nav-link navbar_nav-li--link d-flex align-items-center" href="{% link quiSommesNous.html %}">NOTRE ENTREPRISE</a>
+                        </li>
+                        <li class="nav-item dropdown navbar_nav-li">
+                            <a class="nav-link dropdown-toggle navbar_nav-li--link d-flex align-items-center" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                NOS SERVICES
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item navbar_nav-li--link2 d-flex align-items-center" href="{% link installation-chaudiere.html %}">Installation chaudière</a>
+                                <a class="dropdown-item navbar_nav-li--link2  d-flex align-items-center" href="{% link plomberie-generale.html %}">Plomberie générale</a>
+                                <a class="dropdown-item navbar_nav-li--link2  d-flex align-items-center" href="{% link depannage-plomberie.html %}">Dépannage Plomberie</a>
+                                <a class="dropdown-item navbar_nav-li--link2 d-flex align-items-center" href="{% link installation-sanitaires.html %}"> Installation sanitaires</a>
+                            </div>
+                        </li>
+                        <li class="nav-item navbar_nav-li">
+                            <a class="nav-link navbar_nav-li--link d-flex align-items-center" href="{% link nos-realisations.html %}">NOS REALISATIONS</a>
+                        </li>
+                        <li class="nav-item navbar_nav-li">
+                            <a class="nav-link navbar_nav-li--link d-flex align-items-center" href="{% link devis.html %}">CONTACT & DEVIS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>

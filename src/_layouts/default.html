@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+
+    {% if page.url == '/' %}
+        {% include slider.html %}
+    {% endif %}
+
+    <div class="">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+    <a href="tel:{{ site.data.company.phones[0] }}" id="fixphone"><i class="fa fa-phone"></i>&nbsp;{{ site.data.company.phones[0] }}</a>
+  </body>
+</html>
